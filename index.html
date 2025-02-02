@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frigoriste - Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 1rem;
+        }
+        footer {
+            background: #f1f1f1;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jaber ABICHOU</h1>
+    </header>
+    
+    <section>
+        <h2>Services proposés</h2>
+        <p>Installation, maintenance et réparation de systèmes frigorifiques.</p>
+    </section>
+    
+    <section>
+        <h2>Me contacter</h2>
+        <form action="mailto:ahmedsahmimi43@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <h2>Mentions légales</h2>
+        <p>&copy; 2025 - Frigoriste. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
